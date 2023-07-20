@@ -8,7 +8,7 @@ const Hero = () => (
       <div className="grid max-w-md grid-cols-1 mx-auto lg:grid-cols-12 gap-x-6 gap-y-8 lg:max-w-none">
         <div className="self-center lg:col-span-4">
           <h1 className="text-3xl font-bold text-gray-900 sm:text-4xl xl:text-5xl">Hey 👋 I am Christopher Makombe, building my tech career.</h1>
-          <p className="mt-5 text-base font-normal leading-7 text-gray-500">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vehicula massa in enim luctus.</p>
+          <p className="mt-5 text-base font-normal leading-7 text-gray-500">I am a young tech entreprenuer chasing stars,listen to my story below.</p>
           <div className="relative inline-flex mt-9 group">
             <div className="absolute transition-all duration-1000 opacity-70 inset-0 bg-gradient-to-r from-[#44BCFF] via-[#FF44EC] to-[#FF675E] rounded-xl blur-lg filter group-hover:opacity-100 group-hover:duration-200"></div>
 
