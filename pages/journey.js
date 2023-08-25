@@ -1,10 +1,10 @@
+/* eslint-disable */
+
+
 import Image from 'next/image'
 import { Timeline} from '@/components'
 import Head from 'next/head'
-<<<<<<< HEAD
 
-=======
->>>>>>> 21125f054a456e16f03c4d796dfc646ab179798a
 
 
 export default function Journey() {
