@@ -19,9 +19,9 @@ export default function Journey() {
   <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 </Head>
   return (
-<<<<<<< HEAD
+< HEAD
     <div>
-=======
+
     <>
      <Head>
         <title>
@@ -34,7 +34,7 @@ export default function Journey() {
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
->>>>>>> 21125f054a456e16f03c4d796dfc646ab179798a
+
       <Timeline />
 
    </div>
