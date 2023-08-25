@@ -1,7 +1,10 @@
 import Image from 'next/image'
 import { Timeline} from '@/components'
 import Head from 'next/head'
+<<<<<<< HEAD
 
+=======
+>>>>>>> 21125f054a456e16f03c4d796dfc646ab179798a
 
 
 export default function Journey() {
@@ -16,7 +19,22 @@ export default function Journey() {
   <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 </Head>
   return (
+<<<<<<< HEAD
     <div>
+=======
+    <>
+     <Head>
+        <title>
+          {" "}
+          Welcome To Christopher Makombe
+        </title>
+        <meta
+          name="description"
+          content="A young entrepenuer taking charge of his dreams until he does.This is my journey"
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+>>>>>>> 21125f054a456e16f03c4d796dfc646ab179798a
       <Timeline />
 
    </div>

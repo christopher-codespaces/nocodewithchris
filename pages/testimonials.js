@@ -1,5 +1,6 @@
 import React from "react";
 import Image from"next/image";
+<<<<<<< HEAD
 import Head from 'next/head';
 
 
@@ -14,6 +15,23 @@ const TestimonialsSection = () => {
   />
   <meta name="viewport" content="initial-scale=1.0, width=device-width" />
 </Head>
+=======
+import Head from 'next/head'
+
+
+const TestimonialsSection = () => {
+    <Head>
+        <title>
+          {" "}
+          Welcome To Christopher Makombe
+        </title>
+        <meta
+          name="description"
+          content="A young entrepenuer taking charge of his dreams until he does.This is what people say about me."
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
+>>>>>>> 21125f054a456e16f03c4d796dfc646ab179798a
   const testimonials = [
     {
       text:

@@ -24,7 +24,7 @@ const Logo=()=>{
     },
     {
       data: "1.6M",
-      title: "Startup Pre-money Evaluation (SwiftlyBox)",
+      title: "Startup Post-money Evaluation (SwiftlyBox)",
     },
 
   ];
