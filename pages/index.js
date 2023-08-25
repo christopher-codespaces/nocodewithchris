@@ -6,14 +6,14 @@ import Head from 'next/head'
 
 export default function Home() {
   return (
-    <>
+    <div>
       <Head>
         <title>
-          {" "}
+          
           Welcome To Christopher Makombe
         </title>
         <meta
-          name="description"
+          name="Home"
           content="A young entrepenuer taking charge of his dreams until he does."
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
@@ -22,6 +22,6 @@ export default function Home() {
       <Logo/>
       <FAQ/>
       <Portfolio />
-   </>
+   </div>
   )
 }
