@@ -7,21 +7,6 @@ import Head from 'next/head';
 
 
 const TestimonialsSection = () => {
-  <Head>
-  <title>
-    My Life | Christopher
-  </title>
-  <meta
-    name="testimonial"
-    content="A young entrepenuer taking charge of his dreams until he does.Well this is about his life."
-  />
-  <meta name="viewport" content="initial-scale=1.0, width=device-width" />
-</Head>
-=======
-import Head from 'next/head'
-
-
-const TestimonialsSection = () => {
     <Head>
         <title>
           {" "}
@@ -33,7 +18,6 @@ const TestimonialsSection = () => {
         />
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
->>>>>>> 21125f054a456e16f03c4d796dfc646ab179798a
   const testimonials = [
     {
       text:

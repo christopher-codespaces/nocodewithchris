@@ -5,7 +5,7 @@ const projects = [
     title: 'Website for a Former Startup',
     type: 'Website',
     description: 'Designed and developed a user-friendly website to showcase the services and features of our former startup. Focused on enhancing the overall user experience and delivering an exceptional online presence.',
-    projectLink: 'https://eclectic-cupcake-dc9719.netlify.app/',
+    projectLink: 'https://swiftlyboxversion2.netlify.app/',
     githubLink: 'https://github.com/SwiftlyBox/fatcat',
   },
   {
@@ -19,7 +19,28 @@ const projects = [
     title: 'Lulep NGO Website',
     type: 'Website',
     description: 'Collaborated with an upcoming NGO, Lulep, to bring their vision to life. Translated their constitution document into a compelling website design. Continuously working to align the website with their vibrant logo.',
-    projectLink: 'https://steady-beijinho-b6d3ff.netlify.app/',
+    projectLink: 'https://lulep.netlify.app/',
+    githubLink: 'https://github.com/christopher-codespaces?tab=repositories',
+  },
+  {
+    title: 'Built A Restaurant Dashbboard for SwiftlyBox Former Startup',
+    type: 'Website',
+    description: 'I didnt have much experince with AWS the web app crashed in production',
+    projectLink: 'https://restaurantdashboardswiftlybox.netlify.app/',
+    githubLink: 'https://github.com/christopher-codespaces?tab=repositories',
+  },
+  {
+    title: 'Kitchen Express',
+    type: 'Website',
+    description: 'This is a web app I had to build for my bootcamp course and built it using html ,css and js ',
+    projectLink: 'https://kitchenexpressapp.netlify.app/',
+    githubLink: 'https://github.com/christopher-codespaces?tab=repositories',
+  },
+  {
+    title: 'Waitlist Community Website',
+    type: 'Website',
+    description: 'Built this while working on my startup t ',
+    projectLink: 'https://kitchenexpressapp.netlify.app/',
     githubLink: 'https://github.com/christopher-codespaces?tab=repositories',
   },
 ];
