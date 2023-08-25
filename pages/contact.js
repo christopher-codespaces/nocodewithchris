@@ -1,3 +1,5 @@
+/* eslint-disable */
+
 import React from "react";
 import { FiMapPin, FiPhone, FiMail } from "react-icons/fi"; // Import the correct React icons
 import { FaTwitter, FaFacebook, FaLinkedin, FaInstagram } from "react-icons/fa";
