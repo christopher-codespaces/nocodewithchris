@@ -1,6 +1,8 @@
+/* eslint-disable */
+
+
 import React from "react";
 import Image from"next/image";
-<<<<<<< HEAD
 import Head from 'next/head';
 
 
