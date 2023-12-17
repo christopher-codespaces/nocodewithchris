@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Hero, NavBar ,Logo,Portfolio,FAQ} from '@/components';
+import { Hero, NavBar ,Logo,Portfolio,FAQ,WhatsApp} from '@/components';
 import Head from 'next/head'
 
 
@@ -22,6 +22,7 @@ export default function Home() {
       <Logo/>
       <FAQ/>
       <Portfolio />
+      <WhatsApp/>
    </div>
   )
 }

@@ -2,7 +2,7 @@
 
 
 import Image from 'next/image'
-import { Timeline} from '@/components'
+import { Timeline,WhatsApp} from '@/components'
 import Head from 'next/head'
 
 
@@ -26,6 +26,8 @@ export default function Journey() {
       </Head>
 
       <Timeline />
+      <WhatsApp/>
+
     </>
   
   )

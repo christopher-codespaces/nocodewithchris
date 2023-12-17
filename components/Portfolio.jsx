@@ -25,7 +25,7 @@ const projects = [
   {
     title: 'Built A Restaurant Dashbboard for SwiftlyBox Former Startup',
     type: 'Website',
-    description: 'I didnt have much experince with AWS the web app crashed in production',
+    description: 'In the early stages of SwiftlyBox, I undertook the ambitious task of developing our first Minimum Viable Product (MVP): a robust Restaurant Dashboard. This web application aimed to streamline operations for restaurants within the SwiftlyBox ecosystem. However, despite the valuable lessons learned, the project encountered challenges in production, crashing when the demand exceeded 100 calls daily.',
     projectLink: 'https://restaurantdashboardswiftlybox.netlify.app/',
     githubLink: 'https://github.com/christopher-codespaces?tab=repositories',
   },
@@ -34,14 +34,40 @@ const projects = [
     type: 'Website',
     description: 'This is a web app I had to build for my bootcamp course and built it using html ,css and js ',
     projectLink: 'https://kitchenexpressapp.netlify.app/',
-    githubLink: 'https://github.com/christopher-codespaces?tab=repositories',
+    githubLink: 'https://github.com/christopher-codespaces/IWA18',
   },
   {
     title: 'Waitlist Community Website',
     type: 'Website',
-    description: 'Built this while working on my startup t ',
+    description: 'As an integral part of my previous startup, SwiftlyBox, I took charge of creating a compelling Waitlist Community Website. This strategic landing page played a pivotal role in building a thriving community around our startup, fostering anticipation, and engaging potential users before our official launch.',
     projectLink: 'https://kitchenexpressapp.netlify.app/',
-    githubLink: 'https://github.com/christopher-codespaces?tab=repositories',
+    githubLink: 'https://github.com/christopher-codespaces/form',
+  },
+  {
+    title: 'Web Development Agency',
+    type: 'Website',
+    description: 'I spearheaded the development of a dynamic and modern website for my startup venture, a Web Development Agency committed to crafting digital experiences that seamlessly merge innovation and functionality. This project was not just about showcasing our technical prowess but embodying the ethos of our agency. ',
+    projectLink: 'https://kitchenexpressapp.netlify.app/',
+    githubLink: 'https://github.com/christopher-codespaces/brandaide',
+  },
+  {
+    title: 'Events Company ',
+    type: 'Website',
+    description: ' I led the development of a vibrant and contemporary website for a notable events company as part of my startup venture. This project was a testament to our commitment to creating digital experiences that seamlessly blend innovation with functionality. The website aimed not only to showcase our technical prowess but also to embody the unique ethos of our agency.',
+    projectLink: 'https://genie-events.netlify.app/',
+    githubLink: 'https://github.com/christopher-codespaces/genie-client',
+  },
+  {
+    title: 'Mobile App for Technical Interviews ',
+    type: 'Mobile Application',
+    description: ' I took the helm in crafting a mobile application designed specifically for technical interviews, demonstrating my proficiency in building robust solutions. This project focused on implementing CRUD (Create, Read, Update, Delete) functionality, a fundamental aspect of database operations, providing a seamless and efficient experience for users.',
+    projectLink: 'https://app.flutterflow.io/share/office-to-let-3keyzm?page=Login',
+  },
+  {
+    title: 'No-Code SaaS Company Development ',
+    type: 'Mobile Application',
+    description: 'In collaboration with my co-founders, we embarked on the journey of creating a dynamic and robust Software as a Service (SaaS) platform using a no-code approach. Recognizing the need for efficiency and scalability, we opted for tools like Webflow and Wized.io to build a powerful solution for our target market.',
+    projectLink: 'https://zadrop.webflow.io/',
   },
 ];
 

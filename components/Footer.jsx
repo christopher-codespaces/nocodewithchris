@@ -10,10 +10,7 @@ const Footer = () => {
       href: 'Biography',
       name: 'Biography'
     },
-    {
-      href: 'contact',
-      name: 'Contact'
-    },
+    
     {
       href: 'testimonials',
       name: 'Testimonials'

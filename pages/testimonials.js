@@ -4,6 +4,8 @@
 import React from "react";
 import Image from"next/image";
 import Head from 'next/head';
+import { WhatsApp} from '@/components'
+
 
 
 const TestimonialsSection = () => {
@@ -44,44 +46,61 @@ const TestimonialsSection = () => {
   ];
 
   return (
-    <section className="bg-white ">
-      <div className="container px-6 py-10 mx-auto">
-        <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
-          What our <span className="text-black">clients</span> say
-        </h1>
+    <>
+      <Head>
+        <title>
+          {" "}
+          Welcome To Christopher Makombe
+        </title>
+        <meta
+          name="description"
+          content="A young entrepreneur taking charge of his dreams until he does. This is what people say about me."
+        />
+        <meta name="viewport" content="initial-scale=1.0, width=device-width" />
+      </Head>
 
-        <p className="max-w-2xl mx-auto mt-6 text-center text-gray-600 ">
+      <WhatsApp />
+
+      <section className="bg-white ">
+        <div className="container px-6 py-10 mx-auto">
+          <h1 className="text-2xl font-semibold text-center text-gray-800 capitalize lg:text-3xl dark:text-white">
+            What our <span className="text-black">clients</span> say
+          </h1>
+
+          <p className="max-w-2xl mx-auto mt-6 text-center text-gray-600 ">
             All Happy Clients I have met along my journey
-        </p>
+          </p>
 
-        <section className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
-          {testimonials.map((testimonial, index) => (
-            <div key={index} className="p-8 border rounded-lg dark:border-gray-700">
-              <p className="leading-loose text-gray-500 dark:text-gray-400">
-                {testimonial.text}
-              </p>
+          <section className="grid grid-cols-1 gap-8 mt-8 xl:mt-12 lg:grid-cols-2 xl:grid-cols-3">
+            {testimonials.map((testimonial, index) => (
+              <div key={index} className="p-8 border rounded-lg dark:border-gray-700">
+                <p className="leading-loose text-gray-500 dark:text-gray-400">
+                  {testimonial.text}
+                </p>
 
-              <div className="flex items-center mt-8 -mx-2">
-              <img
-              className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700"
-              src={testimonial.image}
-              alt=""
-            />
+                <div className="flex items-center mt-8 -mx-2">
+                  <img
+                    className="object-cover mx-2 rounded-full w-14 shrink-0 h-14 ring-4 ring-gray-300 dark:ring-gray-700"
+                    src={testimonial.image}
+                    alt=""
+                  />
 
-                <div className="mx-2">
-                  <h1 className="font-semibold text-gray-800 dark:text-white">
-                    {testimonial.name}
-                  </h1>
-                  <span className="text-sm text-gray-500">
-                    {testimonial.designation}
-                  </span>
+                  <div className="mx-2">
+                    <h1 className="font-semibold text-gray-800 dark:text-white">
+                      {testimonial.name}
+                    </h1>
+                    <span className="text-sm text-gray-500">
+                      {testimonial.designation}
+                    </span>
+                  </div>
                 </div>
               </div>
-            </div>
-          ))}
-        </section>
-      </div>
-    </section>
+            ))}
+          </section>
+        </div>
+      </section>
+    </>
+
   );
 };
 

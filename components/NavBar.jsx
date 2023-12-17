@@ -14,7 +14,6 @@ const NavBar =()=>{
         { title: "Testimonial", path: "testimonials",isDrapdown: false },
         { title: "Biography", path: "biography", isDrapdown: false },
         { title: "Journey", path: "journey", isDrapdown: false },
-        { title: "Contact", path: "contact", isDrapdown: false }
     ]
 
     useEffect(() => {

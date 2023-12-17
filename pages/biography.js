@@ -1,5 +1,5 @@
 import Image from 'next/image'
-import { Me} from '@/components'
+import { Me,WhatsApp} from '@/components'
 import Head from 'next/head'
 
 
@@ -18,6 +18,7 @@ export default function Biography() {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
       </Head>
       <Me />
+      <WhatsApp/>
 
    </div>
   )
