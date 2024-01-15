@@ -121,7 +121,7 @@ const NavBar =()=>{
                             <div className='flex-1 items-center justify-end gap-x-6 space-y-3 md:flex md:space-y-0'>
 
                                 <li>
-                                    <a href="linkedin.com/in/christophermusamakombe/" className="block py-3 px-4 font-medium text-center text-white bg-black hover:bg-gray-300 active:bg-gray-700 active:shadow-none rounded-lg shadow md:inline">
+                                    <a href="https://www.linkedin.com/in/christophermusamakombe/" className="block py-3 px-4 font-medium text-center text-white bg-black hover:bg-gray-300 active:bg-gray-700 active:shadow-none rounded-lg shadow md:inline">
                                         Follow on LinkedIn
                                     </a>
                                 </li>
