@@ -7,4 +7,5 @@ export {default as Timeline} from "./Timeline.jsx";
 export {default as Me} from "./Me.jsx";
 export {default as FAQ} from "./FAQ.jsx";
 export {default as WhatsApp} from "./Whatsapp.jsx";
+export {default as Form} from "./Form.jsx";
 
