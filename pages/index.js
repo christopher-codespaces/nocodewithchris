@@ -22,7 +22,6 @@ export default function Home() {
       <Logo/>
       <FAQ/>
       <Portfolio />
-      <Form/>
       <WhatsApp/>
    </div>
   )
